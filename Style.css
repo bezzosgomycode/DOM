@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css);
+body{
+    font-family: 'Roboto',sans-serif;
+}
+* { width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+i {
+    margin-right: 10px;
+
+}
+
+input:focus,
+button:focus,
+.form-control:focus{
+    outline: none;
+    box-shadow: none ;
+    
+}
+
+.form-control:disabled,
+.form-control[readonly]{
+    background-color: rgb(233, 248, 248)18;
+    height: 30px;
+    width: 5px;
+border: solid;
+}
+
+.table tr,
+.table tr td{
+    vertical-align: middle;
+}
+
+.button-container{
+    display: flex;
+    align-items: center;
+}
+
+.button-container .form-control{
+    max-width: 80px;
+    text-align: center;
+    display: inline-block;
+    margin: 0px 5px;
+}
+
+#myTable .form-control{
+    width: auto;
+    display: inline-block;
+
+}
+  
+.cart-qty-plus,
+.cart-qty-minus{
+    width: 20px;
+    height: 20px;
+    background-color: royalblue;
+    border: 1px solid;
+    border-radius: .25rem;
+}
+
+.cart-qty-plus:hover,
+.cart-qty-minus:hover{
+    background-color: 
+color: rgb(240, 238, 241);
+}
+
+.img-prdct{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(228, 227, 230);
+    border-radius: 4px;
+}
+.img-prdct img{
+    width: 100%;
+}
+
+.Remove{  background-color: rgb(207, 82, 82);
+
+}
+
+.purchase{
+    position: absolute;
+    bottom: 50px ;
+    width: 8rem;
+    
+
+}
+
+
+
+
+
+
